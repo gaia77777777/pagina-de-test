@@ -1,1 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: %;
+}
 
+.container{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 25px;
+    background-color: rgb(208, 83, 137);
+
+}
+    .titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+     .banner{
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+    .banner img {
+           max-width: 100%;
+           border-radius: 30px;
+}
+
+    .atores {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 30px;
+}
+
+      .ator {
+        text-align: center;
+   }
+
+   .ator img{
+    width: 200px;
+    height: 250;
+    object-fit: cover;
+   }
